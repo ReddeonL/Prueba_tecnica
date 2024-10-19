@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Adquisiciones</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+
+    <h1>Gestión de Adquisiciones</h1>
+
+    <!-- Formulario para registrar adquisiciones -->
+    <form id="form-adquisicion">
+        <label for="presupuesto">Presupuesto (COP):</label>
+        <input type="number" id="presupuesto" step="0.01" required>
+
+        <label for="unidad">Unidad Administrativa:</label>
+        <input type="text" id="unidad" required>
+
+        <label for="tipo">Tipo de Bien o Servicio:</label>
+        <input type="text" id="tipo" required>
+
+        <label for="cantidad">Cantidad:</label>
+        <input type="number" id="cantidad" min="1" required>
+
+        <label for="valorUnitario">Valor Unitario (COP):</label>
+        <input type="number" id="valorUnitario" step="0.01" required>
+
+        <label for="fecha">Fecha de Adquisición:</label>
+        <input type="date" id="fecha" required>
+
+        <label for="proveedor">Proveedor:</label>
+        <input type="text" id="proveedor" required>
+
+        <label for="documentacion">Documentación:</label>
+        <input type="text" id="documentacion" required>
+
+        <input type="submit" value="Registrar Adquisición">
+    </form>
+
+    <h2>Filtros de Adquisiciones</h2>
+    <div class="filtros">
+        <input type="text" id="filtro-unidad" placeholder="Filtrar por Unidad Administrativa">
+        <input type="text" id="filtro-proveedor" placeholder="Filtrar por Proveedor">
+        <input type="text" id="filtro-tipo" placeholder="Filtrar por Tipo de Bien o Servicio">
+        <button onclick="aplicarFiltros()">Aplicar Filtros</button>
+        <button onclick="limpiarFiltros()">Limpiar Filtros</button>
+    </div>
+
+    <h2>Lista de Adquisiciones</h2>
+    <ul id="lista-adquisiciones"></ul>
+
+    <h2>Almacenamiento Histórico</h2>
+    <div class="historial">
+        <table id="tabla-historial">
+            <thead>
+                <tr>
+                    <th>ID Adquisición</th>
+                    <th>Fecha Cambio</th>
+                    <th>Campo Modificado</th>
+                    <th>Valor Anterior</th>
+                    <th>Nuevo Valor</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Filas dinámicas del historial -->
+            </tbody>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "presupuesto": 10000000,
+        "unidad": "Direcci\u00f3n de Medicamentos y Tecnolog\u00edas en Salud",
+        "tipo": "Medicamentos",
+        "cantidad": 10000,
+        "valorUnitario": 1000.0,
+        "fecha": "2023-07-20",
+        "proveedor": "Laboratorios Bayer S.A.",
+        "documentacion": "Orden de compra No. 2023-07-20-001, factura No. 2023-07-20-001",
+        "valorTotal": 10000000.0
+    },
+    {
+        "presupuesto": 5000000,
+        "unidad": "medicina",
+        "tipo": "muebles",
+        "cantidad": 20,
+        "valorUnitario": 300000,
+        "fecha": "2020-07-24",
+        "proveedor": "muebles",
+        "documentacion": "test",
+        "valorTotal": 6000000
+    },
+    {
+        "presupuesto": 5000000,
+        "unidad": "Direcci\u00f3n de Medicamentos y Tecnolog\u00edas en Salud",
+        "tipo": "Medicamentos",
+        "cantidad": 100,
+        "valorUnitario": 10000,
+        "fecha": "2024-10-19",
+        "proveedor": "Laboratorios Bayer S.A.",
+        "documentacion": "Orden de compra No. 2023-07-20-001, factura No. 2023-07-20-001",
+        "valorTotal": 1000000
+    },
+    {
+        "presupuesto": 5000000,
+        "unidad": "Direcci\u00f3n de Medicamentos y Tecnolog\u00edas en Salud",
+        "tipo": "Medicamentos",
+        "cantidad": 100,
+        "valorUnitario": 10000,
+        "fecha": "2024-10-19",
+        "proveedor": "Laboratorios Bayer S.A.",
+        "documentacion": "Orden de compra No. 2023-07-20-001, factura No. 2023-07-20-001",
+        "valorTotal": 1000000
+    }
+]
