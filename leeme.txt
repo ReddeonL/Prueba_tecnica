@@ -1,0 +1,14 @@
+instrucciones para ejecutar los archivos
+punto uno: basta con iniciar con cualquier explorador el archivo index.html y alli proceder a diligenciar la info
+
+punto dos:para correrlo adecuadamente debemos contar con python instalado
+          ejecutar un entorno virtual
+          instalar alli 
+            pip install flask
+            pip install -U flask-cors
+    posteriormente iniciar el back con el comando
+    python app.py desde la terminal
+    posteriormente el servidor con el comando python -m http.server 8000
+
+    y ya podremos acceder al aplicativo
+    
